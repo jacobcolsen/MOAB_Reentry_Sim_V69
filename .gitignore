@@ -25,10 +25,18 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# Node (if ever added)
+# Node / Electron build artifacts
 node_modules/
 dist/
 build/
+mac-arm64/
+mac-universal/
+mac-universal-arm64-temp/
+mac-universal-x64-temp/
+win-unpacked/
+*.blockmap
+builder-debug.yml
+latest-mac.yml
 
 # Environment files
 .env
